@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'New Tegomin', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+img {
+
+    width: 30%;
+    height: 250px;
+    margin: 20px;
+    transition: 2s;
+}
+
+img:hover {
+    transform: scaleX(1.1);
+    transform: scaleY(1.1);
+    border-radius: 50%;
+
+}
