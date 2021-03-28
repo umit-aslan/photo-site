@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: 20px;;
+    padding: 1.2em 0
+}
+
+img {
+    width: 30%;
+    margin: 1.4444%;
+    transition: 2s;
+}
+
+img:hover {
+    transform: scaleX(1.1);
+    transform: scaleY(1.1);
+    border-radius: 10%;
+}
